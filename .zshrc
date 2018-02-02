@@ -95,6 +95,7 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias dc="cd ~/Documents"
 alias blog="cd ~/Desktop/GoBlog"
+alias deployblog="aws s3 sync ./public s3://samotvrdo.com"
 
 # export NVM_DIR="/Users/Dejan/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
